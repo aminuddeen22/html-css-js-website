@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/Contact.css">
+</head>
+<body>
+
+  <div class="contact">
+    <div class="contact-col">
+      <h3>Send us a message</h3>
+      <p>
+        please give me a feedback for my website 
+      </p>
+      <ul>
+        <li> ameerhansufn@gmail.com</li>
+        <li> +91 8431553422</li>
+        <li> 6th cross vayunadana layout, Kempapura <br> Hebbal, Bangalore 560024</li>
+      </ul>
+    </div>
+
+    <div class="contact-col">
+      <form id="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your mobile number" required>
+
+        <label for="message">Write your message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Enter your message" required></textarea>
+
+        <button type="submit" class="btn dark-btn">Submit 
+          <img src="assets/white-arrow.png" alt="">
+        </button>
+      </form>
+      <span id="result"></span>
+    </div>
+  </div>
+
+
+  <script src="/js/Contact.js">
+  </script>
+</body>
+</html>
